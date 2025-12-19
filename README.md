@@ -18,14 +18,14 @@ Question → Convert to Vector → Search Similar Plots → Send to LLM → Get 
 The key parts:
 - **Sentence-BERT**: Converts text into numbers (embeddings) that capture meaning
 - **FAISS**: Fast similarity search to find relevant movie plots
-- **Claude API**: Generates the actual answer based on retrieved plots
+- **Gemini API**: Generates the actual answer based on retrieved plots
 - **Structured Output**: Returns JSON with the answer, which movies were used, and why
 
 ## Setup
 
 ### What You Need
 - Python 3.8+
-- Anthropic API key (free tier works)
+- Gemini API key (free tier works)
 - The Wikipedia Movie Plots dataset from Kaggle
 
 ### Running It
@@ -103,10 +103,8 @@ result = rag_query(question, k=5)  # Default is 3
 ```
 movie-rag-system/
 ├── movie_rag_system.ipynb      # Main notebook
-├── fixed_csv_loading.py         # Fixes CSV parsing issues
 ├── requirements.txt             # Dependencies
 ├── README.md                    
-├── KAGGLE_SETUP_GUIDE.md       # Dataset instructions
 └── examples/
     └── example_outputs.json     # Sample results
 ```
@@ -115,7 +113,7 @@ movie-rag-system/
 
 - The dataset is about 23MB, so I didn't include it in the repo. Download it from Kaggle.
 - I sampled 400 movies to keep it manageable, but you can adjust this
-- If you don't have Claude API access, you could swap in OpenAI's API or use a local model
+- If you don't have Gemini API access, you could swap in OpenAI's API or use a local model
 
 ## What I Learned
 
