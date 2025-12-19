@@ -73,7 +73,7 @@ Long movie plots get split into ~300-word chunks with 50-word overlap. This help
 ### Why These Tools?
 - **Sentence-BERT**: Free, runs locally, good enough for this use case
 - **FAISS**: Super fast for searching through vectors (< 10ms per query)
-- **Claude**: Good at following instructions and returning structured JSON
+- **Gemini**: Good at following instructions and returning structured JSON
 
 ### Adjusting Settings
 
