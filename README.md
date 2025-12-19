@@ -6,7 +6,7 @@ A RAG (Retrieval-Augmented Generation) system that answers questions about movie
 
 Ask a question about movies (like "Which movie has an AI named HAL 9000?") and the system:
 1. Searches through 400 movie plots to find relevant ones
-2. Sends the relevant plots to Claude 
+2. Sends the relevant plots to Gemini 
 3. Gets back an answer with sources cited
 
 ## How It Works
