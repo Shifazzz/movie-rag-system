@@ -1,0 +1,28 @@
+# Core Dependencies for Movie Plot RAG System
+
+# Data Processing
+pandas >=2.0.0
+numpy >=1.24.0
+
+# Embeddings & NLP
+sentence-transformers >=2.2.0
+transformers >=4.30.0
+torch >=2.0.0
+
+# Vector Store
+faiss-cpu >=1.7.4
+
+# LLM API 
+gemini >= gemini-2.5-flash
+
+# Jupyter Notebook Support
+jupyter >=1.0.0
+ipython >=8.0.0
+notebook >=6.5.0
+
+# Utilities
+tqdm >=4.65.0              # Progress bars
+python-dotenv >=1.0.0      # Environment variables
+
+# Optional: Kaggle API for automated dataset download
+# Kaggle >=1.5.0           # Uncomment if using Kaggle API
